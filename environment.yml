@@ -1,0 +1,17 @@
+name: monarchy-sandbox
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - matplotlib
+  - jupyter
+  - numpy
+  - scipy
+  - pytest
+  - seaborn
+  - ipykernel
+  - conda-pack
+  - pip
+  - pip:
+      - caas_jupyter_tools
